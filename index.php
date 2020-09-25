@@ -4,7 +4,7 @@
 		header("location: products.php");
 	}
 
-	require "./includes/common.php";
+	require "common.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<?php
-			require './includes/header.php';
+			require 'header.php';
 		?>
 		<div id="banner-image">
 			<div class="container">
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<?php
-			require './includes/footer.php';
+			require 'footer.php';
 		?>
 	</body>
 </html>
